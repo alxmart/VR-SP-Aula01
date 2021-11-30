@@ -21,4 +21,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txtKmMt"
+        android:layout_width="146dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:text="Efetue a conversão de KM para Metros"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/btnKmMt"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <Button
+        android:id="@+id/btnKmMt"
+        android:layout_width="137dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="56dp"
+        android:text="KM em Mt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
