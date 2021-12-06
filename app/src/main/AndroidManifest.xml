@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VRSPAula01">
         <activity
+            android:name=".KmM"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
