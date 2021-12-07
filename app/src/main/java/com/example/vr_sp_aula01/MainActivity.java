@@ -15,9 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //Desenvolvimento do Button btnKmMT e associação
         //ao Button btnKmMT da Activity (tela)
         Button btnKmMt_prog = (Button) findViewById(R.id.btnKmMt);
+
+        Button btnMtKm_prog = (Button) findViewById(R.id.btnMtKm);
+
         //Estrutura responsável por verificar o momenta que o
         //botao e pressionado, disparando as ações (códigos)
         //para chamar a tela.
@@ -31,5 +35,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+            btnMtKm_prog.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, MKm.class);
+                    startActivity(intent);
+
+                }
+            });
     }
 }
