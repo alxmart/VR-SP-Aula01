@@ -1,11 +1,10 @@
 package com.example.vr_sp_aula01;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.EditText;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class KmM extends AppCompatActivity {
 
